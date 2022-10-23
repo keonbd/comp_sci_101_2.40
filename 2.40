@@ -1,0 +1,11 @@
+''' Type your code here. '''
+import math
+color1 = int(input())
+color2 = int(input())
+color3 = int(input())
+list = [color1, color2, color3]
+small = min(list)
+color1 = color1 - small
+color2 = color2 - small
+color3 = color3 - small
+print(color1, color2, color3)
